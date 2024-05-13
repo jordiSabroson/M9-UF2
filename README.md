@@ -1,13 +1,13 @@
 # M09 - UF2 
-## IMATGES 1.2 TRANSICIONS/ANIMACIONS/JQUERY
+## ACTIVITAT 2 - VIDEO / ICONES / JAVASCRIPT
 
 - **Objectiu**: 
   - Aprendre els següents conceptes:
-    - Aprendre a utilitzar transicions amb css
-    - Aprendre a utilitzar animacions amb css
-    - Aprendre a fer servir la llibreria de JQUERY.
-- **Desenvolupament**: individual.
+    - Utilitzar eines de creació i edició de vídeo.
+    - Integrar els vídeos en pàgines HTML5
+    - Aplicar javascript amb els diferents elements html.
+- **Desenvolupament**: individual
 - **Lliurament**: 
-    - **Codi**: A través de github en una nova branca ‘animacions’
+    - **Codi**: A través de github en una nova branca ‘videos’
 
-- HEU DE FER UN COMMIT PER ACTIVITAT
+- HEU DE FER UN *COMMIT* PER ACTIVITAT
