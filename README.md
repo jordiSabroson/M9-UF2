@@ -1,13 +1,9 @@
 # M09 - UF2 
-## ACTIVITAT 2 - VIDEO / ICONES / JAVASCRIPT
+## ACTIVITAT 3 - REPRODUCTOR D'ÀUDIO
 
 - **Objectiu**: 
   - Aprendre els següents conceptes:
-    - Utilitzar eines de creació i edició de vídeo.
-    - Integrar els vídeos en pàgines HTML5
-    - Aplicar javascript amb els diferents elements html.
+    - Integrar l’ús de Javascript amb css, icones i animacions
 - **Desenvolupament**: individual
 - **Lliurament**: 
-    - **Codi**: A través de github en una nova branca ‘videos’
-
-- HEU DE FER UN *COMMIT* PER ACTIVITAT
+    - **Codi**: A través de github

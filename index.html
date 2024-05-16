@@ -1,150 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kebab Amigo</title>
-    <link rel="icon" type="image/x-icon" href="img/kebab.png">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Reproductor Audios</title>
 </head>
 
 <body>
-    <header>
-        <nav id="navbar">
-            <span class="material-symbols-outlined" id="kebab_icon">kebab_dining</span>
-            <div class="navbar">
-                <button><a href="#about_us">Nosaltres</a></button>
-                <button><a href="#carta">Carta</a></button>
-                <button><a href="#galeria">Galeria</a></button>
-            </div>
-        </nav>
-    </header>
-
-    <div class="mainpage">
-        <img src="img/portada.jpg" alt="portada">
-        <div class="titol">Restaurant El Kebab Amigo</div>
+    <div class="card">
+        <div class="foto">
+            <img src="covers/arpaviejas.jpg" alt="arpaviejas" />
+        </div>
     </div>
-
-    <section class="about_us" id="about_us">
-        <h2>Sobre nosaltres</h2>
-        <div class="abt_us1">
-            <img src="img/sobre_nosaltres1.png" alt="senyor fent un kebab">
-            <p>
-                Benvinguts a Restaurant El Kebab Amigo, el lloc perfecte per als amants dels sabors exòtics i les
-                delícies culinàries que fusionen tradició i autenticitat.
-            </p>
-            <p>
-                Des de la nostra obertura, ens hem compromès a
-                oferir als nostres clients una experiència gastronòmica única inspirada en la rica cultura del kebab.
-            </p>
-            <p>
-                Al Restaurant El Kebab Amigo, la nostra passió és crear plats irresistibles que capturin l'autèntic
-                esperit dels kebabs, utilitzant ingredients frescos i de qualitat.
-            </p>
-        </div>
-        <div class="abt_us2">
-            <img src="img/sobre_nosaltres2.png" alt="kebab ben bo">
-            <p>
-                La nostra missió va més enllà de la simple satisfacció gastronòmica; volem ser el vostre "amigo" en
-                aquest viatge culinari, oferint-vos un ambient acollidor i amistós.
-                <br><br>
-                Us convidem a explorar el món dels kebabs al Restaurant El Kebab Amigo i a deixar-vos portar per una
-                explosió de sabors autèntics. Gràcies per la vostra confiança i esperem que gaudiu de la nostra oferta
-                gastronòmica única. ¡Benvinguts al vostre nou lloc de trobada kebab!
-            </p>
-
-        </div>
-    </section>
-    <section class="carta" id="carta">
-        <h2>Carta</h2>
-        <div class="menu">
-            <h3>MENÚ</h3>
-        </div>
-        <div class="menu1">
-            <p>Menú 1</p>
-        </div>
-        <div class="info_menu">
-            <h3>Kebab Mediterrani</h3>
-            <span>
-                Descobreix el nostre exquisit "Kebab Mediterrani", una fusió perfecta de carn de pollastre marinada
-                amb espècies tradicionals, acompanyada de verdures fresques i la nostra salsa secreta. Una explosió de
-                sabors que transportarà el teu paladar directament a la costa mediterrània. A El Kebab Amigo, cada
-                mossegada és una experiència única. ¡Bon profit!
-            </span>
-        </div>
-        <div class="kebab1">
-            <img src="img/don_kebab.jpeg" alt="iron man kebab">
-            <p>Iron Man Kebab</p>
-        </div>
-        <div class="kebab2">
-            <img src="img/kebaboncio.jpg" alt="vaya pedazo kebab">
-            <p>Tros de Kebab</p>
-        </div>
-
-        <div class="menu2">
-            <p>Menú 2</p>
-        </div>
-        <div class="info_menu">
-            <h3>Kebab de corder</h3>
-            <span>
-                Descobreix la nostra última creació culinària: el "Kebab de corder". Una explosió de sabors amb la
-                suculenta carn de corder marinada amb espècies exòtiques, servida amb els nostres ingredients frescos i
-                salsa especial. Una delícia única que et transportarà a noves dimensions gastronòmiques.
-            </span>
-        </div>
-        <div class="kebab3">
-            <img src="img/kebab corder.jpg" alt="kebab de corder">
-            <p>Cuiner</p>
-        </div>
-        <div class="kebab4">
-            <img src="img/boff.jpg" alt="vaya cacho kebab">
-            <p>Kebab de primera</p>
-        </div>
-    </section>
-
-    <section class="galeria" id="galeria">
-        <h2>Galeria d'imatges</h2>
-        <div class="imatges">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-            <img src="img/el bicho kebab.jpg" alt="bicho kebab">
-        </div>
-
-    </section>
-    <section>
-        <h2>Vídeo del restaurant Kebab Amigo</h2>
-        <div class="video">
-            <video width="900" id="video" muted>
-                <source src="video/video m9 huebo.mp4" type="video/mp4" />
-            </video>
-            <div class="controls">
-                <i class="material-symbols-outlined" id="volume-control">volume_off</i>
-                <i class="material-symbols-outlined" id="play-pause-control">play_circle</i>
-            </div>
-        </div>
-    </section>
-
-
-    <footer>
-        <div class="contacte">
-            <img src="img/mail.png" alt="email icon">
-            <a href="mailto:kebabamigo@gmail.com">kebabamigo@gmail.com</a>
-            <img src="img/mobile.png" alt="phone icon">
-            <span>+34 646 76 32 11</span>
-        </div>
-        <div>
-            <span>El Kebab Amigo®</span>
-        </div>
-    </footer>
-    <script src="script.js"></script>
 </body>
 
 </html>
