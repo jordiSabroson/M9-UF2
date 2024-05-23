@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Fent camí",
+        "artist": "Esquirols",
+        "path": "audios/fent_cami.mp3",
+        "duration": "3:24",
+        "img": "covers/esquirols.jpeg"
+    },
+    {
+        "name": "Buttah",
+        "artist": "New York Ska Jazz Ensemble",
+        "path": "audios/buttah.mp3",
+        "duration": "4:31",
+        "img": "covers/buttah.jpg"
+    },
+    {
+        "name": "Nicolás el Mandíbulas",
+        "artist": "Gambas kon fimosis",
+        "path": "audios/nicolas_el_mandibulas.mp3",
+        "duration": "1:17",
+        "img": "covers/gambas.jpg"
+    },
+    {
+        "name": "Dembow y Reggaeton",
+        "artist": "El Alfa",
+        "path": "audios/dembow_y_reggaeton.mp3",
+        "duration": "4:11",
+        "img": "covers/elalfa.jpg"
+    },
+    {
+        "name": "El Mesías",
+        "artist": "Arpaviejas",
+        "path": "audios/el_mesias.mp3",
+        "duration": "3:14",
+        "img": "covers/arpaviejas.jpg"
+    }
+]

@@ -14,29 +14,28 @@
 <body>
     <div class="card">
         <div class="foto">
-            <img src="covers/arpaviejas.jpg" alt="arpaviejas" />
+            <img src="" alt="arpaviejas" id="cover"/>
         </div>
         <div class="card-body">
-            <h2>El Mesías</h2>
-            <h3>Arpaviejas</h3>
-            <h4>1:00</h4>
+            <h2 id="songName"></h2>
+            <h3 id="artist"></h3>
+            <h4 id="duration">0:00</h4>
             <div class="controls">
                 <div class="btns">
-                    <span class="material-symbols-outlined time-btn"> skip_previous </span>
+                    <span class="material-symbols-outlined time-btn" id="previousBtn"> skip_previous </span>
                     <span class="material-symbols-outlined play-btn" id="playBtn"> play_circle </span>
-                    <span class="material-symbols-outlined time-btn"> skip_next </span>
+                    <span class="material-symbols-outlined time-btn" id="nextBtn"> skip_next </span>
                 </div>
                 <div class="soundbar">
                     <span class="material-symbols-outlined"> volume_down </span>
                     <input type="range" name="" id="volumeRange" min="0" max="100">
                     <span class="material-symbols-outlined"> volume_up </span>
                 </div>
-                <div class="volume" id="volumeDisplay">
-                    
-                </div>
+                <div class="volume" id="volumeDisplay">50</div>
             </div>
         </div>
     </div>
+    <audio id="audioPlayer"></audio>
     <script src="script.js"></script>
 </body>
 
